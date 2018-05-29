@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">金融街</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+
+    <string name="login_tips">正在登录中，请稍后...</string>
+    <string name="waiting_msg_check_upgrade">正在检查是否有新版本，请稍候...</string>
+    <string name="waiting_msg_upgrade">升级中，请稍候...</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="delete">删除</string>
+    <string name="exit">注销</string>
+
+    <string name="bluetooth_is_not_enabled">蓝牙没有被启用</string>
+
+</resources>

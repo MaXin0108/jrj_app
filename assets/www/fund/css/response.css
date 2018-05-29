@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+/*此样式在窗口小于1280px的时候生效*/
+@media screen and (max-width: 1280px) {/*1280*600*/
+
+}
+/*此样式在窗口小于980px的时候生效*/
+@media screen and (max-width: 980px) {/*980*1280*/
+
+}
+/*此样式在窗口小于800px的时候生效*/
+@media screen and (max-width: 800px) {/*800*1280*/
+
+}
+
+/*此样式在窗口小于768px的时候生效*/
+@media screen and (max-width: 768px) {/*768*1024*/
+.flrLeft dl{
+	width:270px;
+	margin:0 auto;
+	}	
+.flrLeft dt,.flrLeft dd{
+	text-align:left;
+	float:none;
+	}	
+.addYinhang{
+	width:300px;
+	margin:-144px 0 0 -151px;
+	}	
+.Safety dt em{
+	padding:0 5px;
+	width:60px;
+	}
+.Safety dd{
+	font-size:12px;
+	}
+}
+/*此样式在窗口小于360px的时候生效*/
+@media screen and (max-width: 360px) {/*320*640*/
+
+}
+
+
+
+
+
+
+

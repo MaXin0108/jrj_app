@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>产品详情</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/response.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <h1 class="logo">
+     <a href='javascript:history.go(-1)' class="back-off"><span class="glyphicon glyphicon-chevron-left"></span></a>
+     产品详情
+    </h1>
+    <div class="product">
+     <table>
+      <tr class="bor-bot">
+       <th colspan="3">定存宝</th>
+      </tr>
+      <tr class="pro-dta bor-bot">
+       <td>
+        <span>预期年化</span>
+        <strong class="orange">8%~9%</strong>
+       </td>
+       <td>
+        <span>期限</span>
+        <strong>连续</strong>
+       </td>
+       <td class="jindu">
+        <span>进度 <a href="javascript:;">80%</a></span>
+        <em><i style="width:80%"></i></em>
+       </td>
+      </tr>
+      <tr class="bor-bot">
+       <td colspan="3">实际金额：123,548,52元</td>
+      </tr>
+     </table>
+    </div><!--product/-->
+    <div class="proinfo">
+     <table>
+      <tr>
+       <th>产品名称</th>
+       <td>
+        定存宝
+       </td>
+      </tr>
+      <tr>
+       <th>起投金额</th>
+       <td>
+       100元
+       </td>
+      </tr>
+      <tr>
+       <th>年化利率</th>
+       <td>
+        10% -11% (扣除收费后净收益)
+       </td>
+      </tr>
+      <tr>
+       <th>投资形式</th>
+       <td>
+        1、每月100起投，连续投资N个月（封闭期内每月必须投， 不能间断），到期还本息；<br />
+          2、如果封闭期内，投资间断算作放弃理财，结束投资，返还本金，利息按照目前银行定存最高计算。<br />
+          3、如果该用户快到下一个月的定存日期，客服会提前1天做短信或电话方式做定存提醒（同时系统会以消息的形式提醒客户），如果到期没有继续定存，系统会自动做提醒，用户可以申请延期存款（最多延期3天），如果没有做延期申请或延期后还没有定存，视为放弃理财计划，每笔定存理财最多2次延期申请；
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2" align="center">
+        <a href="#" class="ljyy" style="height:40px;line-height:40px;">立即预约</a>
+       </td>
+      </tr>
+     </table>
+    </div><!--proinfo/-->
+    
+    <div class="heights">&nbsp;</div>
+    <nav>
+     <dl>
+      <dt><a href="zixun.html"><img src="images/资讯.png" width="35" height="35" /></a></dt>
+      <dd><a href="zixun.html">资讯</a></dd>
+     </dl>
+     <dl>
+      <dt><a href="licai.html"><img src="images/理财.png" width="35" height="35" /></a></dt>
+      <dd><a href="licai.html">理财</a></dd>
+     </dl>
+     <dl>
+      <dt><a href="daikuan.html"><img src="images/贷款.png" width="35" height="35" /></a></dt>
+      <dd><a href="daikuan.html">贷款</a></dd>
+     </dl>
+     <dl>
+      <dt><a href="user.html"><img src="images/我的.png" width="35" height="35" /></a></dt>
+      <dd><a href="user.html">我的</a></dd>
+     </dl>
+     <div class="clearfix"></div>
+    </nav>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/style.js"></script>
+    <!--轮播图特效-->
+    <script src="js/jquery.excoloSlider.js"></script>
+    <style>
+    .slider{max-width:640px;margin:0px auto; margin-top:5px;text-align:center;}
+    </style>
+    <script>
+    $(function () {
+      $("#sliderA").excoloSlider();
+	  $(".es-pager").hide();
+	  //导航定位
+	  $("nav dl:eq(1)").addClass("navCur");
+    });
+    </script>
+  </body>
+</html>
